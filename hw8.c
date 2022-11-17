@@ -31,7 +31,7 @@ int main(void) {
 
 	printf("Enter 5 real numbers.:");
 	scanf_s("%f %f %f %f %f", &arr[0], &arr[1], &arr[2], &arr[3], &arr[4]);
-	printf("Standard Deviation = %f", sd(ptr_arr));
+	printf("Standard Deviation = %.3f", sd(ptr_arr));
 
 	return 0;
 }
